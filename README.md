@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/4f391xwpiauc8vgy?svg=true)](https://ci.appveyor.com/project/sunsetLatte/selenium)
