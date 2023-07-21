@@ -21,15 +21,14 @@ public class SeleniumTest {
     @BeforeAll
 
     public static void setupAll (){
-        WebDriverManager.chromedriver().setup();
+        System.setProperty("WebDriverManager.chromedriver", "./driver/chromedriver.exe");
     }
 
 
     @BeforeEach
     public void setUp() {
         ChromeOptions option = new ChromeOptions();
-        option.addArguments("--disable-dev-shm-usage");
-        option.addArguments("--no-sandbox");
+        option.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(option);
         driver.get("http://localhost:9999/");
     }
