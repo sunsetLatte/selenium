@@ -31,6 +31,7 @@ public class SeleniumTest {
         option.addArguments("--remote-allow-origins=*");
         option.addArguments("--disable-dev-shm-usage");
         option.addArguments("--no-sandbox");
+        option.addArguments("--headless");
         driver = new ChromeDriver(option);
     }
 
