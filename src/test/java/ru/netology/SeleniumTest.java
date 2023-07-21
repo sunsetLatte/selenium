@@ -21,7 +21,7 @@ public class SeleniumTest {
     @BeforeAll
 
     public static void setupAll() {
-        System.setProperty("WebDriverManager.chromedriver", "./driver/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
     }
 
 
@@ -31,20 +31,18 @@ public class SeleniumTest {
         option.addArguments("--remote-allow-origins=*");
         option.addArguments("--disable-dev-shm-usage");
         option.addArguments("--no-sandbox");
-        option.addArguments("--disable-gpu");
         driver = new ChromeDriver(option);
-        driver.get("http://localhost:9999/");
     }
 
     @AfterEach
-    public void AfterEach() {
+    public void tearDown() {
         driver.quit();
         driver = null;
     }
 
-    @Test
-        // Заполнение бланка, позитивный тест
-    void shouldTestBlankPositive() {
+    @Test                                  // Заполнение бланка, позитивный тест
+    public void shouldTestBlankPositive() {
+        driver.get("http://localhost:9999/");
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Пупкин Василий");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79169930331");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
