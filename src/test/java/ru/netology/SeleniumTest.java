@@ -20,7 +20,7 @@ public class SeleniumTest {
 
     @BeforeAll
 
-    public static void setupAll (){
+    public static void setupAll() {
         System.setProperty("WebDriverManager.chromedriver", "./driver/chromedriver.exe");
     }
 
@@ -29,6 +29,9 @@ public class SeleniumTest {
     public void setUp() {
         ChromeOptions option = new ChromeOptions();
         option.addArguments("--remote-allow-origins=*");
+        option.addArguments("--disable-dev-shm-usage");
+        option.addArguments("--no-sandbox");
+        option.addArguments("--disable-gpu");
         driver = new ChromeDriver(option);
         driver.get("http://localhost:9999/");
     }
@@ -39,7 +42,8 @@ public class SeleniumTest {
         driver = null;
     }
 
-    @Test                                 // Заполнение бланка, позитивный тест
+    @Test
+        // Заполнение бланка, позитивный тест
     void shouldTestBlankPositive() {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Пупкин Василий");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79169930331");
