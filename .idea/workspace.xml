@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a65bff96-6ac3-4019-9c19-e0cdb03f85ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +57,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Netology/hw/aqa-code/aqa-code/api-ci/PostmanEcho2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.SeleniumTest.shouldTestBlankPositive">
-    <configuration name="SeleniumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SeleniumTest.shouldTestBlankNegativeWithoutAgreement">
+    <configuration name="SeleniumTest.shouldTestBlankNegativeNameLatin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -70,7 +71,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumTest&quot;" />
+            <option value="&quot;ru.netology.SeleniumTest.shouldTestBlankNegativeNameLatin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -80,30 +81,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SeleniumTest.shouldTestBlank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--debug" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumTest.shouldTestBlank&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SeleniumTest.shouldTestBlankNegative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumTest.shouldTestBlankNegativeNameMystakePhone" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -116,7 +94,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumTest.shouldTestBlankNegative&quot;" />
+            <option value="&quot;ru.netology.SeleniumTest.shouldTestBlankNegativeNameMystakePhone&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -126,7 +104,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SeleniumTest.shouldTestBlankPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumTest.shouldTestBlankNegativePhoneInvalid" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -139,7 +117,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumTest.shouldTestBlankPositive&quot;" />
+            <option value="&quot;ru.netology.SeleniumTest.shouldTestBlankNegativePhoneInvalid&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -149,7 +127,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SeleniumTest.shouldTestPositiveBlank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumTest.shouldTestBlankNegativeWithoutAgreement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -162,7 +140,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumTest.shouldTestPositiveBlank&quot;" />
+            <option value="&quot;ru.netology.SeleniumTest.shouldTestBlankNegativeWithoutAgreement&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeleniumTest.shouldTestBlankPositiveNameBorderLow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.SeleniumTest.shouldTestBlankPositiveNameBorderLow&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SeleniumTest.shouldTestBlankPositive" />
-        <item itemvalue="Gradle.SeleniumTest.shouldTestBlankNegative" />
-        <item itemvalue="Gradle.SeleniumTest.shouldTestPositiveBlank" />
-        <item itemvalue="Gradle.SeleniumTest" />
-        <item itemvalue="Gradle.SeleniumTest.shouldTestBlank" />
+        <item itemvalue="Gradle.SeleniumTest.shouldTestBlankNegativeWithoutAgreement" />
+        <item itemvalue="Gradle.SeleniumTest.shouldTestBlankPositiveNameBorderLow" />
+        <item itemvalue="Gradle.SeleniumTest.shouldTestBlankNegativeNameMystakePhone" />
+        <item itemvalue="Gradle.SeleniumTest.shouldTestBlankNegativePhoneInvalid" />
+        <item itemvalue="Gradle.SeleniumTest.shouldTestBlankNegativeNameLatin" />
       </list>
     </recent_temporary>
   </component>
